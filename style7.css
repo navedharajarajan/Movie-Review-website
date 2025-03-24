@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffcc00;
+    padding: 10px 15px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #ff6600;
+    color: #121212;
+}
+
+/* Genre List */
+.genre-list {
+    text-align: center;
+    padding: 20px;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.genre {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.genre:hover {
+    transform: scale(1.05);
+}
+
+.genre h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+
+.genre p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.genre ul {
+    list-style: none;
+    padding: 0;
+}
+
+.genre ul li {
+    margin: 5px 0;
+}
+
+.genre ul li a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.genre ul li a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    margin-top: 20px;
+}

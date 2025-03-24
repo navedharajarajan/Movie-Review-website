@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #6ae8e2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Movie Section */
+.movie {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #333;
+    border-radius: 10px;
+}
+
+.movie img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.movie-info h2 {
+    margin: 0;
+    color: #ffcc00;
+}
+
+/* Reviews Section */
+.reviews {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+.reviews h2 {
+    color: #ffcc00;
+}
+
+.review {
+    background: #444;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.carousel a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep text color */
+    display: block; /* Make entire div clickable */
+}
+
+.movie {
+    transition: transform 0.2s ease-in-out;
+}
+
+.movie:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #48ecf2;
+    margin-top: 20px;
+}

@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;background-image: url('bg.webp'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    background: #eae6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(246, 242, 242, 0.2);
+    text-align: center;
+    width: 300px;
+    background: rgba(6, 6, 6, 0.8); /* Adds a slight white overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:center;
+}
+
+.login-container h2 {
+    color: #ffcc00;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #4cf0ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e63e3e;
+}
+
+/* Links */
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
